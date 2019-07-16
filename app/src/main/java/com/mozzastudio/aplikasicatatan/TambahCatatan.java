@@ -1,8 +1,7 @@
 package com.mozzastudio.aplikasicatatan;
 
-import android.content.ClipData;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -14,17 +13,11 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.nio.BufferUnderflowException;
-
-import javax.microedition.khronos.egl.EGLDisplay;
 
 public class TambahCatatan extends AppCompatActivity {
 
     EditText etNama, etCatatan;
     Button btnSimpan;
-    boolean isEditable = false;
     String fileName = "";
     String tempCatatan = "";
 

@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // menampilkanalertdialog
     void tampilkanDialogKonfirmasiHapusCatatan(final String filename) {
         new AlertDialog.Builder(this)
                 .setTitle("Hapus Catatan Ini?")
